@@ -1,0 +1,16 @@
+.dv{
+    margin-top: 20px;
+    border: solid 2px;
+    color: black;
+    width: 500px;
+    height: 510px;
+    margin-left: 400px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px;
+    background-color: white;
+}
+.heading1{
+    text-align: center;
+    color: brown    ;
+    margin-top: 5px;
+}

@@ -1,0 +1,26 @@
+.negative{
+    color: red;
+  }
+  .positive{
+    color: blue;
+  }
+  .a{
+    text-align: center;
+     margin-top: 40px;
+    border: solid 2px;
+    color: black;
+    width: 400px;
+    height: 500px;
+    margin-left: 450px;
+    border-radius: 20px;
+    background-color: black;
+  }
+  .heading2{
+    color: white;
+  }
+  .bt12{
+text-align: center;
+  }
+  .bt22{
+text-align: center;
+  }

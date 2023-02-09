@@ -1,0 +1,160 @@
+.App {
+    /* border: solid 2px;
+    height: 350px;
+    width: 800px;
+    color: rgb(98, 98, 98);
+    border-radius: 10px;
+    background-color: rgb(232, 230, 230);
+    box-shadow: 5px 5px 10px; */
+  }
+  .heading {
+    color: black;
+    background-color: rgba(179, 204, 235, 0.692);
+    text-align: center;
+    font-size: 20px;
+    font-variant: normal;
+    margin-top: 0px;
+    border-radius: 10px 10px 00px 0px;
+    border: solid 1px;
+  }
+  .fn {
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  .in1 {
+    border-radius: 2px;
+    border-style: outset;
+    font-size: 20px;
+    box-shadow: 1px 1px 3px;
+  }
+  .ln {
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding-left: 30px;
+  }
+  .in2 {
+    border-radius: 2px;
+    border-style: outset;
+    font-size: 20px;
+    box-shadow: 1px 1px 3px;
+  }
+  .ps {
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding-left: 32px;
+  }
+  .in3 {
+    border-radius: 2px;
+    border-style: outset;
+    font-size: 20px;
+    box-shadow: 1px 1px 3px;
+    
+  }
+  .mb {
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding-left: 30px;
+  }
+  .in4 {
+    border-radius: 2px;
+    border-style: outset;
+    font-size: 20px;
+    box-shadow: 1px 1px 3px;
+  }
+  .db {
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  .in5 {
+    border-radius: 2px;
+    border-style: outset;
+    font-size: 20px;
+    box-shadow: 1px 1px 3px;
+    margin-left: 67px;
+  }
+  .gn {
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding-left: 30px;
+  }
+  .op {
+    border-radius: 2px;
+    border-style: outset;
+    font-size: 20px;
+    box-shadow: 1px 1px 3px;
+    margin-left: 67px;
+    width: 215px;
+  }
+  .tc {
+    padding: 50px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding-left: 30px;
+  }
+  .cb {
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+  }
+  .sbb {
+    margin-left: 400px;
+    height: 30px;
+    width: 80px;
+    font-size: 18px;
+    background-color: #037991;
+    border-radius: 5px;
+    border: solid 1px;
+  }
+  .rst {
+    margin-left: 40px;
+    height: 30px;
+    width: 80px;
+    font-size: 18px;
+    background-color: #037991;
+    border-radius: 5px;
+    border-color: black;
+    border: solid 1px;
+  }
+  .hvr :hover {
+    color: #000000;
+    background-color: #1e88e5;
+  }
+  .table,th,td,tr{
+      border: solid rgb(0, 0, 0) 2px;
+      font-size: 20px;
+      color: rgb(15, 15, 15);
+      margin-left: 820px;
+      margin-top: -335px;
+      border-collapse: collapse;
+      background-color: rgb(232, 230, 230);
+      width: 500px;
+      height: 62px;
+      text-align: center;
+  
+  }
+  .oll{
+      /* border: solid rgb(0, 0, 0) 2px; */
+      font-size: 30px;
+      /* color: rgb(15, 15, 15); */
+      /* border-collapse: collapse; */
+      /* background-color: rgb(232, 230, 230); */
+      /* width: 500px;
+      height: 62px; */
+      /* text-align: center; */
+      padding-top: 40px;
+      color: black;
+  
+  
+  }
+  .ull{
+      padding-left: 600px;
+      margin-top: -230px;
+      color: black;
+  }
+  
