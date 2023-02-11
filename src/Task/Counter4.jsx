@@ -40,7 +40,7 @@ export const Counter4 = () => {
         <span> </span>
         <Button
           variant="contained"
-          color="error"
+          color="error" disabled = {count == 0}
           onClick={handleDec}
           className="bt22"
         >
@@ -51,7 +51,7 @@ export const Counter4 = () => {
           variant="outlined"
           count
           onClick={() => setCount(0)}
-          disabled={count === 0}
+          disabled={count == 0}
         >
           Reset
         </Button>
