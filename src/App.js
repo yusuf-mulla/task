@@ -14,7 +14,7 @@ function App() {
       {/* <RegisterForm/> */}
       {/* <Counter1/> */}
       {/* <Counter2/> */}
-      <OnOffSwitch/>
+      {/* <OnOffSwitch/> */}
       {/* <Counter3/> */}
       {/* <Counter4 /> */}
     </div>
