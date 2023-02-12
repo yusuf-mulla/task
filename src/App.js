@@ -6,6 +6,7 @@ import { Counter4 } from "./Task/Counter4";
 import { OnOffSwitch } from "./Task/OnOffSwitch";
 import { RegisterForm } from "./Task/RegisterForm";
 import { ToDoList } from "./Task/ToDoList";
+import { ToDoList2, ToDpList2 } from "./Task/ToDoList2";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       {/* <OnOffSwitch/> */}
       {/* <Counter3/> */}
       {/* <Counter4 /> */}
+      <ToDoList2/>
     </div>
   );
 }
