@@ -27,25 +27,17 @@ export const Counter4 = () => {
         <h1 className="heading2">Counter Application</h1>
         <br /> <br />
         <Button
-          variant="contained"
-          color="success"
-          onClick={handleInc}
-          className="bt12"
-        >
-          Increment
-        </Button>{" "}
+          variant="contained"color="success"
+          onClick={handleInc}className="bt12">Increment</Button>{" "}
+
+
         <h1 className={count > 0 ? "positive" : count <= 0 ? "negative" : null}>
           {count}
         </h1>
         <span> </span>
         <Button
-          variant="contained"
-          color="error" disabled = {count == 0}
-          onClick={handleDec}
-          className="bt22"
-        >
-          Decrement
-        </Button>{" "}
+          variant="contained"color="error" 
+          disabled = {count == 0}onClick={handleDec}className="bt22">Decrement</Button>{" "}
         <br /> <br />
         <Button
           variant="outlined"
