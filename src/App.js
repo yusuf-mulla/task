@@ -21,8 +21,8 @@ function App() {
       {/* <Counter4 /> */}
       {/* <ToDoList2/> */}
       {/* <Counter5/> */}
-      {/* <RouteData/> */}
       <RouteData/>
+      {/* <RouteData/> */}
     </div>
   );
 }
