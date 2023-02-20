@@ -1,26 +1,45 @@
-import axios from 'axios'
-import { useNavigate } from 'react-router-dom';
-import React, { useState } from 'react'
-import { addQuantity } from './Utility';
+import { Card, CardContent, Grid } from "@mui/material";
+import axios from "axios";
+import React, { useEffect, useState } from "react";
+import { useDispatch,useSelector } from "react-redux";
+
 
 export const Home = () => {
-  const [data,setData]=useState([]);
+  const select=useSelector((state)=>state)
+  const dispatch=useDispatch()
+
+  const [data, setData] = useState([]);
+
+  const getCartData = async () => {
+    const res = await axios.get("https://fakestoreapi.com/products");
 
 
-const addData= async ()=>{
-  const getData= axios.get("https://fakestoreapi.com/products")
-  setData(getData.data)
-  console.log(getData);
-}
+    // setData([data]);
+    console.log(data);
+  };
 
-return (
-  <div>
-      {data.map((item,index)=>{
-        return(
-          <h1>{data}</h1>
-        )
+  useEffect(()=>{
+    setData(getCartData)
+  },[])
+  return (
+    <div>
+      <Grid container spacing={3}>
+      {data.map((item, index) => {
+        return (
+          <Grid item xs={3} >
+            <Card >
+              <CardContent >
+                <h1>{item.image}
+                  width={200}
+                  height={200}
+                  style={{ position: "relative", left: 50 }}
+                  </h1>
+              </CardContent>
+            </Card>
+          </Grid>
+        );
       })}
-      
+      </Grid>
     </div>
-  )
-}
+  );
+};
