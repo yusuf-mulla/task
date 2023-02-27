@@ -1,0 +1,29 @@
+.navbar{
+    background-color: rgb(133, 133, 164);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container{
+    color: rgb(184, 41, 41);
+    font-size: 30px;
+    margin-left: 20px;
+}
+.nav-container ul li{
+display: inline;
+margin: 0px 40px;
+
+}
+.nav-container ul li a{
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-container ul li:hover{
+    border: 1px solid red;
+    padding: 1px;
+    height: -10px;
+}

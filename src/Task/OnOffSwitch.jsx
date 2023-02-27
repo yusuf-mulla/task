@@ -4,10 +4,13 @@ import "./OnOffSwitch.css";
 
 export const OnOffSwitch = () => {
   const [on, setOn] = useState(false);
-  const handleButton = () => setOn((on) => !on);
-  setTimeout=()=>{
-    return(!setOn)
+  const handleButton = () =>{
+    // setTimeout(()=>{
+      setOn(!on)
+    // },2000)
   }
+
+
   return (
     <div className="dv">
         <h1 className="heading1"> ON & OFF Switch</h1>
